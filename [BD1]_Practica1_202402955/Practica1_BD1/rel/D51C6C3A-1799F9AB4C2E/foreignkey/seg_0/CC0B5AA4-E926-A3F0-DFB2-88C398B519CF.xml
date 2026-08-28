@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC0B5AA4-E926-A3F0-DFB2-88C398B519CF" containerWithKeyObject="2890A17E-284A-268A-8AFD-BCF63C177B2C" localFKIndex="36AF5481-7D96-9E00-EC8C-F6A3C246CCF7" name="DETALLE_EVALUACION_CRITERIO_EVALUACION_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>88F4C476-4719-1EBA-3A15-43CC93CC1B70</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<referredTableLongName>CRITERIO_EVALUACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D8C44755-540C-7A03-9C1C-6CB059F0226C</referredTableID>
+<keyObject>D1C17D3E-D1E8-AB45-EA2E-AAF07FDA3256</keyObject>
+<referredKeyID>D1C17D3E-D1E8-AB45-EA2E-AAF07FDA3256</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_criterio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

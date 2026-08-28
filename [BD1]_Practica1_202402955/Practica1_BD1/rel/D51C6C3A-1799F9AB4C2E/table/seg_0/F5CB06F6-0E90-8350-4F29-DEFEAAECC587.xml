@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5CB06F6-0E90-8350-4F29-DEFEAAECC587" name="COLOCACION">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>007C8854-3AEE-8BDC-EE5F-7BB576FC4D09</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_colocacion" id="81DA8A95-4E3B-ED58-9743-B23EA020FD81">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>F593E717-E25B-03EA-ECB4-76805A7A52A6</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="D59F9226-7C8E-2992-0131-28E080F78203">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>30F7DA8F-A6EB-718A-2F18-9525D8E9A9CD</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_final" id="FF2751EF-B5E8-ED54-9505-76ADBE896C54">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>6B09EE7F-556C-017B-6BE0-A4A492D04062</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="34E8D8E1-D31F-D868-1A7D-2F092BB1AB2B">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>DE87839A-D7F1-1314-0898-84CD07579644</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTUDIANTE_id_estudiante" id="4AD8B71B-00D3-8CB1-4B55-3FCDB58532AC">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>267A082C-25F1-9D79-3055-08BD8C6475F2</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AF7A905-72E7-84F4-6484-0E61911F01DB" referredColumn="2E4A0DE3-5FAC-8ED4-2F68-4F512695C63F"/>
+</associations>
+</Column>
+<Column name="PLAZA_id_plaza" id="6A67CEE3-A1ED-D657-5010-BB40D6ABB6ED">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>218D2B50-E083-D46F-5B16-5CB8389E1851</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="405F5DA2-204A-2C1B-1A59-300CADC378CB" referredColumn="149D62A8-6FFA-7C10-EA38-E6E8A727726D"/>
+</associations>
+</Column>
+<Column name="CATEDRATICO_id_catedratico" id="546CCC04-CEC4-3119-68FA-CA48F24052A4">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>FDC0F430-2184-6DB1-6B73-90DDB0719E00</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEF39349-CA42-88D7-87B7-D80FD1A5DEA1" referredColumn="5BD3913C-F3B3-A768-C174-5FD2A31836FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EACE878B-F55D-84CB-3E2E-CF234506F2D2" name="COLOCACION_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>E59A8FB2-6990-DF56-C34C-B252289DEA5A</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81DA8A95-4E3B-ED58-9743-B23EA020FD81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20EF88C6-8D0F-37E6-71A0-19A232E27224" name="COLOCACION_ESTUDIANTE_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>19CEE17E-4BE0-7D0F-7F6F-640927EA9044</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AD8B71B-00D3-8CB1-4B55-3FCDB58532AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B99A865-62CC-AB82-5F7B-9DA578D6E133" name="COLOCACION_PLAZA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>040AF67E-43FA-A39A-5E73-E04A237D0AFA</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A67CEE3-A1ED-D657-5010-BB40D6ABB6ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="343E0C13-4B9C-3A89-E45B-C6F86FFE472C" name="COLOCACION_CATEDRATICO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>1B219E97-CDBC-9663-F743-CE5FED60C16D</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="546CCC04-CEC4-3119-68FA-CA48F24052A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

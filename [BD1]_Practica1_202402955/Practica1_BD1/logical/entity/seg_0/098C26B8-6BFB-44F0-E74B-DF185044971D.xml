@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="098C26B8-6BFB-44F0-E74B-DF185044971D" name="CATEDRATICO">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:13:57 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_catedratico" id="F3C79264-CD6D-983C-3BEE-A265C2117CC0">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:14:05 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C737A663-240F-2FF3-0FEB-E48EEBA679EB">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:14:12 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacion" id="DC54D4E0-E12B-2A59-9EAB-763AA8183BAF">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:14:15 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="375FFF63-D956-B180-213A-6031B6173074">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:14:18 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad" id="D4BBAAA9-2DBE-DD0C-C56B-52BF473F8CCF">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:14:22 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_instituto" id="BCADC9A4-4FBD-27B5-4A8E-28F50ADCC02E">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:28:10 UTC</createdTime>
+<generatorID>6CB9CFD1-36E1-E1AB-9EB8-801F2AACBB88</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<referedAttribute>77BFE1D7-5A10-6B60-0DF6-0FEB7E65B77A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7129C2A-4819-0AA9-AA82-62B8C4CD8AC6" name="CATEDRATICO PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:14:11 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3C79264-CD6D-983C-3BEE-A265C2117CC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

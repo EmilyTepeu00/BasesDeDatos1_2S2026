@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FABF5EA-9D19-8C74-268C-461F5BE02D01" containerWithKeyObject="DAA1D7E8-FAEE-DBA5-157C-ADA9964BB803" localFKIndex="B92B107A-070C-DAFB-779E-32E6F205C5B7" name="BITACORA_COLOCACION_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>D2F1FC45-3282-C655-C778-A80ECE60180C</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<referredTableLongName>COLOCACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5CB06F6-0E90-8350-4F29-DEFEAAECC587</referredTableID>
+<keyObject>EACE878B-F55D-84CB-3E2E-CF234506F2D2</keyObject>
+<referredKeyID>EACE878B-F55D-84CB-3E2E-CF234506F2D2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_colocacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

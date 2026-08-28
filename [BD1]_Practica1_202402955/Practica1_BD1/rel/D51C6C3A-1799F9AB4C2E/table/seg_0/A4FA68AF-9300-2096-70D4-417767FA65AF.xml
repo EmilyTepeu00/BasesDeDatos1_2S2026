@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4FA68AF-9300-2096-70D4-417767FA65AF" name="PLAZA">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>106A61E5-4CDF-5AEC-748C-0FE6172ED676</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plaza" id="149D62A8-6FFA-7C10-EA38-E6E8A727726D">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>40DDF07C-E9F9-F7FE-6D2C-EE81470F7E17</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidad_tecnica" id="EC87B235-9FCC-DE0A-77F5-CEEBA33AA3F0">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>32FB640F-45FF-11EF-5F88-2C513CE7C4CB</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_id_empresa" id="40B89F51-1064-CA1D-2A82-F6BF73682D1C">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>71BFFDC2-19E2-D8AF-85EF-538675D49FD7</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="670E41A2-8AFE-6ACD-899E-892E7B7AE1CC" referredColumn="A3A14678-76D4-4176-6A30-B0737D6623EB"/>
+</associations>
+</Column>
+<Column name="id_contacto_plaza" id="5D47A52A-3A27-B862-3C45-893F3256BC81">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>C3ABECD3-9150-E4C3-ABE4-640D4D1A1313</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DF8C2EA-01A2-70A2-C591-D4159CF9DDAB" referredColumn="D0AF3055-B967-CB7C-8BC0-431C3C57A1C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89444228-063D-62B1-C87D-3797B0420A3A" name="PLAZA_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>3B8E0C2D-80B5-9A66-2C33-13EB7A85D7BD</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149D62A8-6FFA-7C10-EA38-E6E8A727726D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A6C5F97-9D29-5090-D755-7D70BB8C9203" name="PLAZA_EMPRESA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>B40DED2C-0EC4-95CE-6604-3853EF228595</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40B89F51-1064-CA1D-2A82-F6BF73682D1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69BD0086-5C97-350A-B43E-24AABB2F866C" name="PLAZA_CONTACTO_EMPRESARIAL_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>2FD25FDD-D237-C782-03D8-28963857E9D3</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D47A52A-3A27-B862-3C45-893F3256BC81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

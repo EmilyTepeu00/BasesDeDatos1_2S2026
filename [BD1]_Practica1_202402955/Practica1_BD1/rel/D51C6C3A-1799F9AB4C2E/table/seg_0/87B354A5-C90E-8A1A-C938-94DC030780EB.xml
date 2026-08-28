@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87B354A5-C90E-8A1A-C938-94DC030780EB" name="CONTACTO_EMPRESARIAL">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>3762DD0D-7CF2-728F-D117-D912348CB771</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contacto" id="D0AF3055-B967-CB7C-8BC0-431C3C57A1C4">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>E43E518B-DC00-F57F-ECB3-FC0DE8A666C6</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C1D13D1A-F623-04B1-3BDE-426DEA3A19C3">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>79E735C9-ED73-73BB-EEC2-4604E7F55F61</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="7B104638-4AF3-B888-8F3C-B19F5E5BE481">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>E8A57B06-A45B-956E-D81B-4C1D9CC9ED83</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="E600C0E2-DC3F-6A19-D3CF-D2AAC74C5AB6">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>922E4FB8-CF5C-449D-222C-B32B72C7DC11</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_id_empresa" id="1D737934-7789-4A16-5518-5EDEB989B197">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>54ADCA79-BBC0-1E9F-1E94-15AF773552AC</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67042303-9FF5-9F83-DE31-52CB533840D1" referredColumn="A3A14678-76D4-4176-6A30-B0737D6623EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20849059-D5EF-5EC6-34FC-72EC41313F3F" name="CONTACTO_EMPRESARIAL_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>B60269FC-459B-B8F6-6B0D-80BBC41375B3</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0AF3055-B967-CB7C-8BC0-431C3C57A1C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59C7C414-6BD4-9949-21F7-FD91D6DD0D49" name="CONTACTO_EMPRESARIAL_EMPRESA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>B5BCE366-C284-6817-3C6C-CE22E63E6560</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D737934-7789-4A16-5518-5EDEB989B197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
