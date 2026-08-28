@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2316F9B3-D021-9C91-F91B-0C6C91A1E1A1" name="EVALUACION">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:20:26 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_evaluacion" id="E8C55A91-695E-1162-796F-F5F3933970D3">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:20:33 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_evaluacion" id="30BE541F-FA44-015B-6A28-A386A58E4095">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:20:44 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_evaluacion" id="5634C650-3DF3-B44A-3571-CD8E82AC8B78">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:20:49 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_colocacion" id="DEB6DD5C-B0B7-C0F7-B0F5-627ED34DC5B3">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:31:49 UTC</createdTime>
+<generatorID>1A08DD01-8F80-E771-4499-256049244886</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<referedAttribute>F593E717-E25B-03EA-ECB4-76805A7A52A6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_catedratico" id="537AD0E9-91B9-005D-30BF-0581B77A83D1">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:31:58 UTC</createdTime>
+<generatorID>B60BFBD1-A054-2DFC-BFCE-04CD2ED9CB77</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<referedAttribute>F3C79264-CD6D-983C-3BEE-A265C2117CC0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A68B238-A4F2-699B-DE23-94D727BD103B" name="EVALUACION PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:21:00 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8C55A91-695E-1162-796F-F5F3933970D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

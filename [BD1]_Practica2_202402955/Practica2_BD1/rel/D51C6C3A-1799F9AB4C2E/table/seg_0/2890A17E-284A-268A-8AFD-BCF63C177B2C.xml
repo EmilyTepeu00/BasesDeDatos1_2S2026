@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2890A17E-284A-268A-8AFD-BCF63C177B2C" name="DETALLE_EVALUACION">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>13A1F16E-3D63-D6E7-E3F8-65B2099FB301</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="puntuacion" id="1F9A253D-D176-2537-0DF7-9C8EC07AD013">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>4308A5FF-9F5E-3D86-C3C5-D3E00B12ACA1</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVALUACION_id_evaluacion" id="DDDF97B0-22A4-73C5-56F3-B7EA02C42C0F">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>B17ECE08-BD9A-CAFE-45AC-BF0024AF42A0</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56BE7D86-0F57-AEE0-12E2-8505B7129DF5" referredColumn="B1FBB4AA-FF3B-62FE-1616-B2B3CBA0FA0E"/>
+</associations>
+</Column>
+<Column name="id_criterio" id="E1B3BA87-979C-70B2-8C4D-2A157647683B">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>7B106D2C-7788-2C0F-C720-4501C2C00BEF</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC0B5AA4-E926-A3F0-DFB2-88C398B519CF" referredColumn="0F434A20-FCAF-9C4E-7660-135FFD8191F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D35F0BC-E0AC-E82E-E7AC-E70A7DA14369" name="DETALLE_EVALUACION_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>B7FA64AF-0252-C3AC-0A86-E476B0C36A17</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDDF97B0-22A4-73C5-56F3-B7EA02C42C0F"/>
+<colUsage columnID="E1B3BA87-979C-70B2-8C4D-2A157647683B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE76F604-569F-ED06-41E6-5283B8125CCF" name="DETALLE_EVALUACION_EVALUACION_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>10C6BCAC-BDCF-D38A-20ED-D4CE4D831D6C</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDDF97B0-22A4-73C5-56F3-B7EA02C42C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36AF5481-7D96-9E00-EC8C-F6A3C246CCF7" name="DETALLE_EVALUACION_CRITERIO_EVALUACION_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:48:07 UTC</createdTime>
+<generatorID>88F4C476-4719-1EBA-3A15-43CC93CC1B70</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1B3BA87-979C-70B2-8C4D-2A157647683B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

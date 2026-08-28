@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02741C49-6EB1-7C1F-BDA6-5276D43D1788" name="BITACORA">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:25 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_bitacora" id="88BEEA42-8867-44DE-0A21-0DD5C39977DE">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:32 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correlativo" id="519DEF3C-BCCA-88FC-64BC-9C6BB3D0DC60">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:39 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="F357A7B9-6D6D-1D84-906F-DF7014E1B784">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:43 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_trabajadas" id="F81534B4-9EAD-2C6C-93ED-293618FB2FD5">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:45 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="actividades" id="E915D84D-8FA6-A2F0-2050-C7554CFC0164">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:50 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="6E03FFED-8136-0CB6-48EA-FA9BBD5BD21D">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:53 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="validada" id="1580D422-5A06-34FE-A0CE-91E8BA1CA34E">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:56 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_colocacion" id="52CFC0F4-2573-D3F7-A944-79F244C7A26B">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:31:41 UTC</createdTime>
+<generatorID>D2F1FC45-3282-C655-C778-A80ECE60180C</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<referedAttribute>F593E717-E25B-03EA-ECB4-76805A7A52A6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18E38FF1-01FF-5ECF-7B30-FF344148C9D5" name="BITACORA PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:38 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88BEEA42-8867-44DE-0A21-0DD5C39977DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

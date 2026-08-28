@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="007C8854-3AEE-8BDC-EE5F-7BB576FC4D09" name="COLOCACION">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:17:40 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_colocacion" id="F593E717-E25B-03EA-ECB4-76805A7A52A6">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:17:49 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="30F7DA8F-A6EB-718A-2F18-9525D8E9A9CD">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:17:54 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_final" id="6B09EE7F-556C-017B-6BE0-A4A492D04062">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:00 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="DE87839A-D7F1-1314-0898-84CD07579644">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:18:04 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estudiante" id="267A082C-25F1-9D79-3055-08BD8C6475F2">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:28:37 UTC</createdTime>
+<generatorID>19CEE17E-4BE0-7D0F-7F6F-640927EA9044</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<referedAttribute>4B94440C-0387-D603-6D26-647C51674060</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plaza" id="218D2B50-E083-D46F-5B16-5CB8389E1851">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:29:18 UTC</createdTime>
+<generatorID>040AF67E-43FA-A39A-5E73-E04A237D0AFA</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<referedAttribute>40DDF07C-E9F9-F7FE-6D2C-EE81470F7E17</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_catedratico" id="FDC0F430-2184-6DB1-6B73-90DDB0719E00">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:29:27 UTC</createdTime>
+<generatorID>1B219E97-CDBC-9663-F743-CE5FED60C16D</generatorID>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<referedAttribute>F3C79264-CD6D-983C-3BEE-A265C2117CC0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E59A8FB2-6990-DF56-C34C-B252289DEA5A" name="COLOCACION PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-08-14 18:19:15 UTC</createdTime>
+<ownerDesignName>Practica1_BD1</ownerDesignName>
+<engineerTo>
+<item key="D51C6C3A-80E3-7BB9-4336-1799F9AB4C2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F593E717-E25B-03EA-ECB4-76805A7A52A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
