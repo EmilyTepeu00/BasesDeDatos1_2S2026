@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD3B1D5E-3420-4C43-E680-4192D9DD9BE5" name="TIPO_TIENDA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>1B89226A-3E0D-6075-02F4-FBD96E16C794</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_tipo_tienda" id="CE872D0D-6169-D1D6-D74D-66473868B1AA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>F613C304-3EE0-B2CA-FA5A-C771F2AF73C0</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="CB209A40-9DF7-B801-521A-A8D964CAD9FB">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>2536ED94-0842-0542-C818-2B5D013BD8FF</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2EC680C-37A8-D390-7366-2344339E14DE" name="TIPO_TIENDA_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>A271D3A2-19B4-4C46-FF81-4D855CDD0C8A</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE872D0D-6169-D1D6-D74D-66473868B1AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B95B3C7-88D8-3562-75F6-8D4679705E30" name="TIPO_TIENDA_nombre_UN">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>0606775E-6171-12D5-7E05-2FE2CC5BD450</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB209A40-9DF7-B801-521A-A8D964CAD9FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

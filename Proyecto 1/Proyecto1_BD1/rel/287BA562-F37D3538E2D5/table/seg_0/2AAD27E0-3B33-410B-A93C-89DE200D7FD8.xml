@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AAD27E0-3B33-410B-A93C-89DE200D7FD8" name="METODO_PAGO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>21801EA4-7156-B303-2446-2DB0D435AE83</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_metodo_pago" id="28EF33E2-DD5D-33D4-1E3B-78DDEBCCF636">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>31D7CA62-357B-C397-88A7-C6A829E1059C</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="DD050C79-23D1-6786-4FBB-42766AB265F2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>9423FB6B-49ED-E0EB-1BD4-4D00C502C402</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A502BFF4-9AF9-55F6-59A7-64E65CC73F22" name="METODO_PAGO_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>366E7FB1-5AEA-2EA9-4340-E1EBEBFCF7FD</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28EF33E2-DD5D-33D4-1E3B-78DDEBCCF636"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1731393D-1133-191D-7479-FFAB4666F319" name="METODO_PAGO_nombre_UN">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>3D3B27F4-BF04-9A1A-A30E-54A97CB8FFCB</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD050C79-23D1-6786-4FBB-42766AB265F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

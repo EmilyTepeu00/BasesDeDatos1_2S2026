@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55724BEC-5D8A-2E31-172F-1566329EA5CB" name="PAIS">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:46:11 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_pais" id="1EA7A880-5F1B-E986-9840-985900203EA1">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:46:20 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="AEBD69ED-C0DF-B129-9822-0B045EE58284">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:47:07 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2020A180-081E-A0AB-7D51-A0C742D72D97" name="PAIS PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:46:53 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1EA7A880-5F1B-E986-9840-985900203EA1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2A6FA355-DFA9-6EE1-D487-BE08FB865A18" name="Key_2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:17:08 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<newElementsIDs>AEBD69ED-C0DF-B129-9822-0B045EE58284</newElementsIDs>
+<usedAttributes>
+<attributeRef>AEBD69ED-C0DF-B129-9822-0B045EE58284</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

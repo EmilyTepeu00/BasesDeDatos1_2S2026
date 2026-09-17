@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8BE8546-8FCF-5120-6B1B-91C4A28FC27E" name="TIPO_IDENTIFICACION">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>D0F95B19-7A7C-68C8-6E22-26BDF3D0E152</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_tipo_identificacion" id="82E954EF-D38A-F4C4-3798-BF235B51FB2A">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>8A0E92F3-4A55-1A04-CF04-BDC983C87F05</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="883CB8E2-E2EB-95D6-9A57-563CB6371015">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>58E7524B-9417-0875-CB34-F7F987FAE5D3</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C49D76C0-7BD2-A11F-15E9-CF624587CED7" name="TIPO_IDENTIFICACION_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>AB99A026-E2D4-5972-A030-573E7523D5E5</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82E954EF-D38A-F4C4-3798-BF235B51FB2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F41D7684-CC80-5403-32B3-966A4FA5B07D" name="TIPO_IDENTIFICACION_nombre_UN">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>7DC5851C-F3F9-A3A7-EEA2-9B236651D195</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="883CB8E2-E2EB-95D6-9A57-563CB6371015"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

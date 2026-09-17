@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A1B3F4D-11FC-A7C7-FC47-0EE2067FC71E" name="CATALOGO_PRODUCTO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 03:53:20 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+<item key="41A3A903-E1B2-81FA-F897-E4325D3E4A0D" value="true"/>
+<item key="602E37C8-8139-25E1-0ABF-C21609D82367" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="precio_vigente" id="2001C6E3-720B-954B-22D5-4F7DC4A9FB7B">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 03:53:35 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+<item key="41A3A903-E1B2-81FA-F897-E4325D3E4A0D" value="true"/>
+<item key="602E37C8-8139-25E1-0ABF-C21609D82367" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="existencia_actual" id="5FCD2FB2-AE3C-7771-C194-1CE5B67C4629">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 03:53:42 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+<item key="41A3A903-E1B2-81FA-F897-E4325D3E4A0D" value="true"/>
+<item key="602E37C8-8139-25E1-0ABF-C21609D82367" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_tienda" id="F34902C4-7F43-2B90-57E6-139B9FCCD4FE">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:18:50 UTC</createdTime>
+<generatorID>78FAC16C-2152-E2C6-937C-D1E32ABAAEF4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+<item key="41A3A903-E1B2-81FA-F897-E4325D3E4A0D" value="true"/>
+<item key="602E37C8-8139-25E1-0ABF-C21609D82367" value="true"/>
+</engineerTo>
+<referedAttribute>0033CB5B-BB82-3CDF-C2D2-787C156BDFF6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_producto" id="F28B1857-8761-D800-DB9C-6CCD9B6C5B4E">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:19:18 UTC</createdTime>
+<generatorID>3807D56D-21D9-5A44-DBC8-C6021A8F74DC</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+<item key="41A3A903-E1B2-81FA-F897-E4325D3E4A0D" value="true"/>
+<item key="602E37C8-8139-25E1-0ABF-C21609D82367" value="true"/>
+</engineerTo>
+<referedAttribute>5470AE1F-4546-D368-13C7-0F6992C92171</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="351F728E-8C9E-C15B-1CFD-ABE757F39C4A" name="CATALOGO_PRODUCTO PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:18:50 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+<item key="41A3A903-E1B2-81FA-F897-E4325D3E4A0D" value="true"/>
+<item key="602E37C8-8139-25E1-0ABF-C21609D82367" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F34902C4-7F43-2B90-57E6-139B9FCCD4FE</attributeRef>
+<attributeRef>F28B1857-8761-D800-DB9C-6CCD9B6C5B4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

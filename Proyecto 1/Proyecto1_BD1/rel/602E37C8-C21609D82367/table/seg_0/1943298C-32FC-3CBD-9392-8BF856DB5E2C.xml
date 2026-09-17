@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1943298C-32FC-3CBD-9392-8BF856DB5E2C" name="PAGO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>2251F8C5-C468-F977-B29B-F8DE41ECC470</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_pago" id="924E8861-A87F-CFF5-1780-20892270BFE2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>052AE27F-4625-8A8E-CE54-D47727EBF1A4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="74DD5CB0-5E56-47DE-2648-2B53948D6C20">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>A84727E8-5F53-EC50-E164-AA27E1B08781</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTA_numero_venta" id="F71A7DC9-BD16-8AEB-93CC-040643841ED6">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>8D5612C0-B11A-4091-6D4C-B403302C11D4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9003435D-FEFC-15B6-10AD-839895F2FD7B" referredColumn="137194D9-E865-5073-252C-2A17E5B2CB08"/>
+</associations>
+</Column>
+<Column name="METODO_PAGO_codigo_metodo_pago" id="62827138-2896-53D0-AE41-2522073923F6">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>68414541-71E2-F919-980A-CFFF62ACB693</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDBE9300-E21F-A622-CBF1-6E43EB4D621F" referredColumn="B16D1B4D-8389-880D-1D0D-0EE62DC0D5F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8DDE5D9-00B2-CD08-283B-66C4D2962CC5" name="PAGO_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>C2318B7D-F926-37CD-46B3-5164E501D6B7</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="924E8861-A87F-CFF5-1780-20892270BFE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="196A0B43-ECC3-0251-3AB7-8D4968178344" name="PAGO_VENTA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>CC6CFF55-08A8-3F38-0ED2-85E65C8DE2B4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F71A7DC9-BD16-8AEB-93CC-040643841ED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31522E97-6B8A-EE01-AFFA-52C5246AA6FA" name="PAGO_METODO_PAGO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>27D05969-F0FB-3AFD-BC37-CD55490CBBF8</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62827138-2896-53D0-AE41-2522073923F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="PAGO_CK_1" directorySegmentName="seg_1" id="359D37C4-8819-2FBB-B636-C40CEEFB6456">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 20:56:48 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<rule><![CDATA[monto > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2251F8C5-C468-F977-B29B-F8DE41ECC470" name="PAGO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:57:18 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_pago" id="052AE27F-4625-8A8E-CE54-D47727EBF1A4">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:57:22 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="A84727E8-5F53-EC50-E164-AA27E1B08781">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:57:30 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_venta" id="8D5612C0-B11A-4091-6D4C-B403302C11D4">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 23:33:47 UTC</createdTime>
+<generatorID>CC6CFF55-08A8-3F38-0ED2-85E65C8DE2B4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<referedAttribute>275AADA9-D20F-80B9-18A6-4B5DFBC51E4E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_metodo_pago" id="68414541-71E2-F919-980A-CFFF62ACB693">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 23:33:55 UTC</createdTime>
+<generatorID>27D05969-F0FB-3AFD-BC37-CD55490CBBF8</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<referedAttribute>31D7CA62-357B-C397-88A7-C6A829E1059C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2318B7D-F926-37CD-46B3-5164E501D6B7" name="PAGO PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:57:28 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>052AE27F-4625-8A8E-CE54-D47727EBF1A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

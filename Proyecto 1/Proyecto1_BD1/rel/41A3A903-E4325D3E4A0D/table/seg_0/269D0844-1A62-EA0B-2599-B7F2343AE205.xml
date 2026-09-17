@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="269D0844-1A62-EA0B-2599-B7F2343AE205" name="TIENDA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>CAFF060C-E7AC-C6DA-F3F1-E0E05238389C</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_tienda" id="033525E2-094D-E05C-E4D6-EEB148E315CD">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>0033CB5B-BB82-3CDF-C2D2-787C156BDFF6</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BD7E3CAF-F7F3-3F1F-BCD5-4D4502512910">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>7918A238-E17D-919E-7119-3D4EA5291B39</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="BFF96600-37F3-C50F-D7A7-56C0CE0E285E">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>D09EF8A1-EB43-CDE9-C5B7-09A390CBBBDC</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="0CC9C17C-3118-2780-FE92-424123DA4923">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>8F091FB3-D036-38C2-6BF8-93E1606BE8C9</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO_codigo_municipio" id="8412E2ED-366C-B23D-4436-3C59B8EB1D7D">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>B7FE160F-2B48-A587-33BE-9C6A809E5B51</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B70E55A-D458-907D-6172-5D65A020B91A" referredColumn="295BCAD4-70C0-0DE2-6562-55D917F6356B"/>
+</associations>
+</Column>
+<Column name="TIPO_TIENDA_codigo_tipo_tienda" id="1FBB68F8-D26E-4E55-F667-0467170DBAB4">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>D6ADACF5-A838-9D40-3718-644C7E0875E9</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E4DEB34-3B97-0611-43B3-AD4FB17C17A0" referredColumn="48112C1E-968E-CA7F-9CBF-09856FDEF96D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6417D710-9105-FC7E-CEFC-90F1D5E2B9DD" name="TIENDA_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>DD9A7155-FD8C-033D-EAB8-ABC8B2436049</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="033525E2-094D-E05C-E4D6-EEB148E315CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14BEDF75-70F8-42F6-C99B-DE86A5568D4A" name="TIENDA_MUNICIPIO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>34010D1D-3296-A414-3A47-811D6E1F94AB</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8412E2ED-366C-B23D-4436-3C59B8EB1D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F8A7E7E-CA2D-56E6-1376-DC78300B9D56" name="TIENDA_TIPO_TIENDA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>1C40BEEC-D35E-00B8-F311-13F8EC9BCA3D</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FBB68F8-D26E-4E55-F667-0467170DBAB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

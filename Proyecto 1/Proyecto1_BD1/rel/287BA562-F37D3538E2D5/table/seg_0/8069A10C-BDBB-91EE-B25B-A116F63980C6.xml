@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8069A10C-BDBB-91EE-B25B-A116F63980C6" name="CLIENTE">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>5B1010DD-6E7E-5C90-BFA9-8165F0C325B5</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_cliente" id="5CC71966-A15D-1EEC-C621-CB571C58CBFE">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>8A4BB78E-29F0-F3C0-8ED5-7FD222F123CA</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="F31C6358-456E-4D62-B17C-561E6FD553CF">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>EBB7E20B-BB98-3090-E736-33A160E02171</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="094C3348-26A1-D00A-D519-D0EF15F8C31B">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>2A50D66A-B653-A454-C0CB-A54660B81EC9</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_identificacion" id="9F6214C9-F137-47C0-6948-2045FA6164CC">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>327D346C-7F00-C4DF-56BB-3D1A255CC35D</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="80AFE6EA-0616-7419-D823-DF616DA84BD4">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>1B8F8F14-ED19-A8ED-4DC2-2EB699752597</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="76CD2F19-4ECD-ED63-8BB2-59A76A5C2EC0">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>EC16070F-0973-2EE6-FB2F-6BD30939CFDE</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="FD67B302-CA8D-1033-ED16-D510B2A46317">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>F94748E0-F892-F7E7-1A64-9280001FA541</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO_codigo_municipio" id="25E56C81-D8D5-A61B-3499-C0FA57AFBBDE">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>016243B3-97A1-BAFC-FEDA-A493AB5D9468</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74ADB3ED-797C-381A-7850-64A0AE7BCBD5" referredColumn="89A56A03-ABB4-6E6F-A004-DDEA03299327"/>
+</associations>
+</Column>
+<Column name="TIPO_IDENTIFICACION_codigo_tipo_identificacion" id="904C0A37-5682-A829-7845-487091EC67C3">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>B490B287-3374-C39A-4BFF-4CDD6A8E0A22</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DEDA813-33E3-4DAA-AF67-E0EBA2A88631" referredColumn="B05370EC-0A6C-09ED-39A0-5FB32383E88A"/>
+</associations>
+</Column>
+<Column name="PERSONA_codigo_persona" id="FAA33971-1FD0-1888-AEDB-61571A67F737">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>60836D95-0FD9-A8F0-FE51-AE0AB5BDC0C4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3EAF998-BCCD-C153-BEB7-C0C0653BDA28" referredColumn="1676F0D4-72FF-1C3F-D396-069DD27C7ACA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6008CB1E-F4F4-3816-34DC-39C2BD316765" name="CLIENTE_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>26874F02-7E26-E83E-E257-56213299E2C1</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CC71966-A15D-1EEC-C621-CB571C58CBFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EE66C7A-AD94-5E19-DB62-4A1D07F3D5A2" name="CLIENTE_numero_identificacion_TIPO_IDENTIFICACION_codigo_tipo_identificacion_UN">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>4AF8295C-C1B3-45D3-4370-DE1D0D8AF412</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6214C9-F137-47C0-6948-2045FA6164CC"/>
+<colUsage columnID="904C0A37-5682-A829-7845-487091EC67C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53C3C448-ACE9-1402-68F8-0BA42210AEC8" name="CLIENTE__IDX">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4DCD42FA-572B-208D-F1CA-F8DBC09040A0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FAA33971-1FD0-1888-AEDB-61571A67F737"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C49C81E5-9CE5-A07C-CBE2-7AD965DD5255" name="CLIENTE_MUNICIPIO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>79E53ADE-D350-E588-546A-EC80665C8231</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25E56C81-D8D5-A61B-3499-C0FA57AFBBDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57A4C7D2-086D-3002-B22E-B23A14532361" name="CLIENTE_TIPO_IDENTIFICACION_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>969BCEFD-0BD8-BC94-D304-FD58B4694E9C</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="904C0A37-5682-A829-7845-487091EC67C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8522580C-31E8-8D24-70D4-A8E96CB8BAB3" name="CLIENTE_PERSONA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>4DCD42FA-572B-208D-F1CA-F8DBC09040A0</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAA33971-1FD0-1888-AEDB-61571A67F737"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

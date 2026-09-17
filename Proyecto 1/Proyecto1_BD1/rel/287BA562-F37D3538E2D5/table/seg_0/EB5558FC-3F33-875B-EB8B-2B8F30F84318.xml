@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB5558FC-3F33-875B-EB8B-2B8F30F84318" name="PERSONA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>84EF2B5A-2E7A-FEDC-FE7E-13C75A772309</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_persona" id="1676F0D4-72FF-1C3F-D396-069DD27C7ACA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>A7358F4C-FF9F-BE78-CCF2-241D3B8F116C</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="F717AEDB-A216-4EC1-E138-A54F584721F7">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>1AFC3E7C-39F8-88F7-8125-62FCDBDDE9CA</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="B4C938D0-5C33-9C77-2E80-2CBAF3AEA06E">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>3D3FFC6A-B0B2-751E-8C66-99756B7D79E3</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="83A9C90E-89C5-128E-8B83-E65B33275392">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>32B1F422-6907-9170-427F-957039987101</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="C00BDA26-70A7-F991-F5A6-DEB386E7AFBD">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>AFE50994-5870-5691-BD62-A757B73BAD65</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="93C259B1-152F-F004-0643-CEB486A0DE62">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>4A288929-913C-0487-C93E-7616DB3B1116</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO_codigo_municipio" id="104AED91-ADA6-FB1D-3880-1D33F330066A">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>706B90C1-52F8-72C4-4A10-A6CB713528B5</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2AB448C-36C3-45FD-6D27-4B30F48B7016" referredColumn="89A56A03-ABB4-6E6F-A004-DDEA03299327"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A17DBC04-5603-EC06-C12B-58B7A6694675" name="PERSONA_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>5C69A895-F6B7-F53C-6DD6-3BAB1A93DECE</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1676F0D4-72FF-1C3F-D396-069DD27C7ACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07C72EEF-8FB1-EF9C-AF9D-2C76C9B52FCC" name="PERSONA_nombre_UN">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>19ADB69E-AB09-78BC-A432-1EEC4CD2B030</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F717AEDB-A216-4EC1-E138-A54F584721F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32287CF4-2CFF-345E-5354-E21569DCC29F" name="PERSONA_MUNICIPIO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>9E4A4B04-22E0-462E-3DF7-258AE162D9EF</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="104AED91-ADA6-FB1D-3880-1D33F330066A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

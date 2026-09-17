@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBC725C9-88BF-DA1E-0E34-FB1DD5DA6985" name="CATALOGO_PRODUCTO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>9A1B3F4D-11FC-A7C7-FC47-0EE2067FC71E</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="precio_vigente" id="094FD7EE-8303-2660-D495-5B0332356FC0">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>2001C6E3-720B-954B-22D5-4F7DC4A9FB7B</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="existencia_actual" id="76C04F98-DD95-78D4-FFE9-6565FEC8B75E">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>5FCD2FB2-AE3C-7771-C194-1CE5B67C4629</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIENDA_codigo_tienda" id="7BEB3D1F-797E-93AB-E400-3827E67FF94C">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>AD338FDE-F3C0-FEBC-7EA2-BC041A4F1AE4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B28EDA7F-8E58-930B-A757-BC79EFA7810F" referredColumn="67D69F07-FE96-55F1-A6D1-AAA066F73D7A"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_codigo_producto" id="956DED3A-26B6-5B04-C062-BC16A0DA8279">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>D0B4444E-0F05-3CB9-4118-4599559A9BE3</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4001FCBD-7201-48BE-2E46-6BF8BF404819" referredColumn="45B2FA2A-C452-50DF-79FF-9C2F1439EF5B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93E14363-DE9D-8E22-6730-56363E903CF9" name="CATALOGO_PRODUCTO_TIENDA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>5EC956A8-BD4E-EBA0-9F03-93A8F3A9874F</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BEB3D1F-797E-93AB-E400-3827E67FF94C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30573E08-CBEB-08C8-714A-84C0EEF95986" name="CATALOGO_PRODUCTO_PRODUCTO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>2A610B60-20DE-663C-9B50-859A28015855</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="956DED3A-26B6-5B04-C062-BC16A0DA8279"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

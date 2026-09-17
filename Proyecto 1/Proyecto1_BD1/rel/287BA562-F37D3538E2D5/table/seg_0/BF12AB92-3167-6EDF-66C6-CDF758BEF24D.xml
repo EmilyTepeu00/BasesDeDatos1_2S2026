@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF12AB92-3167-6EDF-66C6-CDF758BEF24D" name="DESGLOSE_VENTA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>8B6E11AC-30B4-4C37-5C92-3C6B0D2A8A01</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad" id="8C117D4F-C116-1EB3-6BCC-71E2D1D6012D">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>D141EB49-A8E9-DCEC-7F31-4270C5ED6DAC</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="740E446C-2A80-3581-06F8-D9EFF9AF48D2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>A091E11F-F887-C6E6-351B-0236FF4D40E5</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="D52D8076-D04D-69F0-BC46-9C1509055EA3">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>167A7B9C-342C-648A-40A4-546D041F30F6</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTA_numero_venta" id="00C33463-EF8B-E0FE-B3EA-BBEEB32282A3">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>69DF18CD-1E20-D859-CB47-3A5C591AF480</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E2B74A1-351C-D361-DC3D-F4CACE0711C5" referredColumn="5B4FAF6F-A619-DC8E-83B9-EBB752B1013F"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_codigo_producto" id="27A820B8-2A1F-E77A-EA44-F61FD1392C60">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>B0206232-7EB2-F515-37D8-28280C33A29F</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67A7EA8A-1EAF-6D42-E0FE-627925BDF332" referredColumn="45B2FA2A-C452-50DF-79FF-9C2F1439EF5B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DE4C276-E410-3C72-1ACD-970D13B524F5" name="DETALLE_VENTA_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>6B811AF1-8BD7-5CA6-D7E9-767A5B8E2E75</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C33463-EF8B-E0FE-B3EA-BBEEB32282A3"/>
+<colUsage columnID="27A820B8-2A1F-E77A-EA44-F61FD1392C60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F758B7-71A4-8E61-6821-43CA742AC8FA" name="DESGLOSE_VENTA_VENTA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>64FFC62A-B410-94C4-0368-32933D1FCC2E</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C33463-EF8B-E0FE-B3EA-BBEEB32282A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="060C029F-D02A-009B-F7D8-47E7EE620CA5" name="DESGLOSE_VENTA_PRODUCTO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>62105171-6DED-C23D-DAEA-B4D7E2545296</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27A820B8-2A1F-E77A-EA44-F61FD1392C60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

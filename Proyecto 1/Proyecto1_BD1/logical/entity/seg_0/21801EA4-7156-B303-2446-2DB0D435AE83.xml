@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21801EA4-7156-B303-2446-2DB0D435AE83" name="METODO_PAGO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:56:56 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_metodo_pago" id="31D7CA62-357B-C397-88A7-C6A829E1059C">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:57:02 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9423FB6B-49ED-E0EB-1BD4-4D00C502C402">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:57:13 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="366E7FB1-5AEA-2EA9-4340-E1EBEBFCF7FD" name="METODO_PAGO PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:57:12 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31D7CA62-357B-C397-88A7-C6A829E1059C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3D3B27F4-BF04-9A1A-A30E-54A97CB8FFCB" name="Key_2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:18:31 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<newElementsIDs>9423FB6B-49ED-E0EB-1BD4-4D00C502C402</newElementsIDs>
+<usedAttributes>
+<attributeRef>9423FB6B-49ED-E0EB-1BD4-4D00C502C402</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

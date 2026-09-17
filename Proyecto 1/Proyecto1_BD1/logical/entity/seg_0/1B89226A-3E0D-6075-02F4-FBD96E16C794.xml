@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B89226A-3E0D-6075-02F4-FBD96E16C794" name="TIPO_TIENDA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:49:25 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_tipo_tienda" id="F613C304-3EE0-B2CA-FA5A-C771F2AF73C0">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:49:34 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2536ED94-0842-0542-C818-2B5D013BD8FF">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:49:45 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A271D3A2-19B4-4C46-FF81-4D855CDD0C8A" name="TIPO_TIENDA PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:49:43 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F613C304-3EE0-B2CA-FA5A-C771F2AF73C0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0606775E-6171-12D5-7E05-2FE2CC5BD450" name="Key_2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:16:53 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<newElementsIDs>2536ED94-0842-0542-C818-2B5D013BD8FF</newElementsIDs>
+<usedAttributes>
+<attributeRef>2536ED94-0842-0542-C818-2B5D013BD8FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

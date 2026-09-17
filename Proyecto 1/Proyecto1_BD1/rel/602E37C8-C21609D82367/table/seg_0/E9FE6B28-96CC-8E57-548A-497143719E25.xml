@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9FE6B28-96CC-8E57-548A-497143719E25" name="VENTA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>7629145D-708A-19F4-FAAD-076DE0CEC641</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_venta" id="137194D9-E865-5073-252C-2A17E5B2CB08">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>275AADA9-D20F-80B9-18A6-4B5DFBC51E4E</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="35B22CA0-79A5-950B-9C55-25E21610004A">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>25501D37-40AE-D392-6067-4998F1BF414C</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_VENTA_codigo_estado" id="5271B69C-7352-B3F8-6D45-1CE5E57B2051">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>79AE80DF-27F6-25C1-A7CC-A37AEABE72E2</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A577F92A-B283-C2D2-086F-9B6010B83908" referredColumn="187B1EF0-73E7-89EC-6F12-D6FDB124D711"/>
+</associations>
+</Column>
+<Column name="CLIENTE_codigo_cliente" id="4D3B3CC9-E2DC-187B-EEEF-61F705E0E84E">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>46B8E069-DC80-5592-43A3-D688E52680C8</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="645EEB6A-B6B7-74B4-E1BD-906C263C22A9" referredColumn="5641B418-2A13-44C8-2CBE-FA70F804C718"/>
+</associations>
+</Column>
+<Column name="TIENDA_codigo_tienda" id="5DEEF5F9-AF88-A18C-F8F1-E3AA398E0BE1">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>5C24B8D4-E1AF-0F47-3D8C-B826FF765E90</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13F33397-5819-7510-846E-E13F1B24F932" referredColumn="7A8552E7-831D-1D81-91AA-834BEB8FAAC8"/>
+</associations>
+</Column>
+<Column name="EMPLEADO_codigo_empleado" id="5B5AE5FA-2833-1211-9B00-B4EF44C0307B">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>8C85B438-647E-5C51-DD9D-542245A494E8</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4171531-F289-950B-CE72-6642253E0A30" referredColumn="A863E3ED-F0C6-3FD2-B52C-F366177D1AD7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C70BD947-F948-78F9-12F4-958D67D507F4" name="VENTA_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>73E66805-EE96-12ED-D432-05352183CEF8</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="137194D9-E865-5073-252C-2A17E5B2CB08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="964ABAF6-6B34-4A1D-9F1B-3A5923CE8795" name="VENTA_ESTADO_VENTA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>208015C0-E9C8-3C8E-82B2-875DA38E3C5D</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5271B69C-7352-B3F8-6D45-1CE5E57B2051"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9713CDBD-114E-41FE-75F8-E92F08D1FFBA" name="VENTA_CLIENTE_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>19BF4007-CB0F-B5E8-E75C-B081261E94D6</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D3B3CC9-E2DC-187B-EEEF-61F705E0E84E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="168ED8A6-5C0B-F6CE-4C3F-A9FB6CF80644" name="VENTA_TIENDA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>3864FF5E-9884-8755-1CB3-9F85322485EE</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DEEF5F9-AF88-A18C-F8F1-E3AA398E0BE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D9B117A-8F10-F42A-254E-582C2E2BF580" name="VENTA_EMPLEADO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>557B5472-138A-BE0D-1F0C-170EACCBD8D4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B5AE5FA-2833-1211-9B00-B4EF44C0307B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

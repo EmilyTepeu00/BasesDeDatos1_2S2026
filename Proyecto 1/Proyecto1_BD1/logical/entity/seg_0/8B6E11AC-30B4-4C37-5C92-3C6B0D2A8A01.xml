@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B6E11AC-30B4-4C37-5C92-3C6B0D2A8A01" name="DESGLOSE_VENTA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:58:25 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cantidad" id="D141EB49-A8E9-DCEC-7F31-4270C5ED6DAC">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:58:32 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_unitario" id="A091E11F-F887-C6E6-351B-0236FF4D40E5">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:58:37 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal" id="167A7B9C-342C-648A-40A4-546D041F30F6">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:58:42 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_venta" id="69DF18CD-1E20-D859-CB47-3A5C591AF480">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:44:39 UTC</createdTime>
+<generatorID>64FFC62A-B410-94C4-0368-32933D1FCC2E</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<referedAttribute>275AADA9-D20F-80B9-18A6-4B5DFBC51E4E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_producto" id="B0206232-7EB2-F515-37D8-28280C33A29F">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:44:53 UTC</createdTime>
+<generatorID>62105171-6DED-C23D-DAEA-B4D7E2545296</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<referedAttribute>5470AE1F-4546-D368-13C7-0F6992C92171</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B811AF1-8BD7-5CA6-D7E9-767A5B8E2E75" name="DETALLE_VENTA PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 23:34:31 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69DF18CD-1E20-D859-CB47-3A5C591AF480</attributeRef>
+<attributeRef>B0206232-7EB2-F515-37D8-28280C33A29F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

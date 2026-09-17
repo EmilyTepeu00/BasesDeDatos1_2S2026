@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="647F1864-4D31-CBB0-4AC6-82EAFEBC18B9" name="CATALOGO_PRODUCTO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>9A1B3F4D-11FC-A7C7-FC47-0EE2067FC71E</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="precio_vigente" id="B174FD70-62B1-4D7D-69D6-366B9DFE0DC7">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>2001C6E3-720B-954B-22D5-4F7DC4A9FB7B</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="existencia_actual" id="3B0EAF30-977E-A992-7253-7E98FE7712C2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>5FCD2FB2-AE3C-7771-C194-1CE5B67C4629</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIENDA_codigo_tienda" id="F0A6A715-F54C-ACBA-F3CC-912DD3848FAA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>AD338FDE-F3C0-FEBC-7EA2-BC041A4F1AE4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0593A736-9EB8-0761-BB8C-5B468C25B175" referredColumn="033525E2-094D-E05C-E4D6-EEB148E315CD"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_codigo_producto" id="DCA90E84-54D1-1A73-2304-4023B61208F4">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>D0B4444E-0F05-3CB9-4118-4599559A9BE3</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2579EA90-79F9-93CD-7592-2DF21642CAEB" referredColumn="42B7B58F-C7FC-23A9-CF12-4B8AC3D505EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="442F4C42-C540-3476-C911-35456CEFDA3D" name="CATALOGO_PRODUCTO_TIENDA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>5EC956A8-BD4E-EBA0-9F03-93A8F3A9874F</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A6A715-F54C-ACBA-F3CC-912DD3848FAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5DC967E-51C0-5A34-CD0A-BF97114C0D84" name="CATALOGO_PRODUCTO_PRODUCTO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>2A610B60-20DE-663C-9B50-859A28015855</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCA90E84-54D1-1A73-2304-4023B61208F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8C29AAB-2064-CEBB-A179-AA2ACF5D0951" name="EMPLEADO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>540BCDEB-A463-F4C9-7378-7C4693E8AED4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_empleado" id="C5B6358C-E320-8CD7-4237-37D1EE7BD823">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>5C53513D-25BC-96E7-7565-779841022303</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_contratacion" id="13164F4B-C059-3696-8F1D-37746C4C5588">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>80AD72A9-7FCD-BB17-846E-987A6BE1D021</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIENDA_codigo_tienda" id="4F1871A2-649E-B2D2-FF94-9128A7357C21">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>45CDBE20-F285-4B26-653A-AFB9E0C7A7D3</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB8CA85B-84E9-F53E-3CCB-AFFCCA8F3446" referredColumn="033525E2-094D-E05C-E4D6-EEB148E315CD"/>
+</associations>
+</Column>
+<Column name="CARGO_codigo_cargo" id="1CACC254-F38E-9CCD-4EB1-6C2950A02786">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>0697A360-039C-7148-C7EC-123E0F7D746A</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="078AF29A-CEC6-49D2-43F9-AA745DD28493" referredColumn="A5DD6F4E-E319-1025-8201-26398A137E28"/>
+</associations>
+</Column>
+<Column name="PERSONA_codigo_persona" id="4053AE10-E091-E677-FB5C-6823336F642D">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>1B96D267-01CB-FBDC-5AE2-AC8DAED4FF59</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD3DFF02-36EF-2AFA-DEF4-E495336ABC37" referredColumn="78AC9D65-FCC2-5BEC-D959-691F46A6D2C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0271D7E4-BFDC-020F-0176-05BACA1F861B" name="EMPLEADO_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>CCE74BC3-9E1B-E068-6304-78F66C34DAAF</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5B6358C-E320-8CD7-4237-37D1EE7BD823"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE0456E3-ACC3-2A95-721D-2EED85A0230B" name="EMPLEADO__IDX">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>69681E38-816E-84F6-1BB8-E4B38E5CA935</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4053AE10-E091-E677-FB5C-6823336F642D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64B22649-1D39-489E-675E-CBC10D91F02C" name="EMPLEADO_PERSONA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>69681E38-816E-84F6-1BB8-E4B38E5CA935</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4053AE10-E091-E677-FB5C-6823336F642D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF1998D5-75F5-2C1F-D245-7050B31DD044" name="EMPLEADO_TIENDA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>B5AA0087-414E-E192-5CDF-73D0E2503D33</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F1871A2-649E-B2D2-FF94-9128A7357C21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF77C504-A323-BE27-999E-46E2C7A48230" name="EMPLEADO_CARGO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>22BC8D25-AB74-DD29-A51C-189FF719C3BC</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CACC254-F38E-9CCD-4EB1-6C2950A02786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

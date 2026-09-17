@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAB30658-E035-A08A-2C6F-BCCB6C2BEA91" name="DEPARTAMENTO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:48:13 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_departamento" id="DC469CF3-2358-4E63-3E52-A2CA7818A768">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:48:21 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="CFFF3603-F4B3-B2A0-8365-2AC2900170CC">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:48:29 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_pais" id="595E7515-1DAD-5863-A47A-6E8453908192">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 23:20:03 UTC</createdTime>
+<generatorID>234806B7-D2D4-798F-231F-1A3B6886E950</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<referedAttribute>1EA7A880-5F1B-E986-9840-985900203EA1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B18A02AB-EFA0-AA54-CD44-5AE4F457FFFA" name="DEPARTAMENTO PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:48:28 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC469CF3-2358-4E63-3E52-A2CA7818A768</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F06CFFDD-E256-BC35-0715-4009E4E15D7B" name="Key_2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:19:30 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<newElementsIDs>CFFF3603-F4B3-B2A0-8365-2AC2900170CC,595E7515-1DAD-5863-A47A-6E8453908192</newElementsIDs>
+<usedAttributes>
+<attributeRef>CFFF3603-F4B3-B2A0-8365-2AC2900170CC</attributeRef>
+<attributeRef>595E7515-1DAD-5863-A47A-6E8453908192</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

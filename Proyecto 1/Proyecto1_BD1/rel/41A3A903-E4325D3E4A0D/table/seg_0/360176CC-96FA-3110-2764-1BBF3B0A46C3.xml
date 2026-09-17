@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="360176CC-96FA-3110-2764-1BBF3B0A46C3" name="MUNICIPIO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>72BDCFB2-87EE-8F14-56AC-9C4B01537393</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_municipio" id="295BCAD4-70C0-0DE2-6562-55D917F6356B">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>87AFB654-D1A9-B332-3DBB-887A5A782EFE</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="91559AD3-62F9-5C4B-A051-5143D4B6DFF4">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>CDFC2D2C-8470-91C1-2FE7-47251957E25E</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEP_codigo_departamento" id="5B856019-9603-C88E-2412-9DA488238EB9">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>909729CE-D7CA-7E87-AF64-44A86ED67F51</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D35AFEC4-1311-14F3-A4EC-2363ACF83358" referredColumn="F13FB1F5-E17D-633E-9FE3-6E1480389D3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="765B0DBB-F3EA-6876-4855-AFBC1D8657AB" name="MUNICIPIO_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>676AE89F-FBA9-938C-867E-54C52645C36A</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="295BCAD4-70C0-0DE2-6562-55D917F6356B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB6E3545-EB5A-41AF-8452-70173D6DEEBF" name="MUNICIPIO_nombre_codigo_departamento_UN">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>53AE1B3D-FFE6-0258-5E97-4972D3EC8957</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91559AD3-62F9-5C4B-A051-5143D4B6DFF4"/>
+<colUsage columnID="5B856019-9603-C88E-2412-9DA488238EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A5D4B2E-7AB3-C7FA-1FB4-CE3146CCD0D2" name="MUNICIPIO_DEPARTAMENTO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>89178DF4-0F1E-C601-348E-0E11D8FF463F</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B856019-9603-C88E-2412-9DA488238EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

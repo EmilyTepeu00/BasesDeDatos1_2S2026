@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1466627C-48F4-DED2-25DA-F4B858B6B5C8" name="DEPARTAMENTO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>AAB30658-E035-A08A-2C6F-BCCB6C2BEA91</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_departamento" id="414DB73A-30B7-FB4E-AB32-016022865637">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>DC469CF3-2358-4E63-3E52-A2CA7818A768</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3C35AE57-108E-F9B2-AAD1-6FFF407D7F9B">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>CFFF3603-F4B3-B2A0-8365-2AC2900170CC</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_codigo_pais" id="BC4AD05A-1D2A-870A-DF6F-C355A01E581D">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>595E7515-1DAD-5863-A47A-6E8453908192</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7B9C251-4B63-8EF9-F298-496B0ADACDA8" referredColumn="69A02B05-CA46-3DDF-F2B4-8064DEF5F008"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0FA71DA-05CE-FE55-B6E4-1127C40A8357" name="DEPARTAMENTO_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>B18A02AB-EFA0-AA54-CD44-5AE4F457FFFA</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="414DB73A-30B7-FB4E-AB32-016022865637"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="030043BB-8830-79ED-840C-4E1B0966F246" name="DEPARTAMENTO_nombre_PAIS_codigo_pais_UN">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>F06CFFDD-E256-BC35-0715-4009E4E15D7B</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C35AE57-108E-F9B2-AAD1-6FFF407D7F9B"/>
+<colUsage columnID="BC4AD05A-1D2A-870A-DF6F-C355A01E581D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF6A4179-8923-3250-F195-42F3D1EFADF6" name="DEPARTAMENTO_PAIS_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>234806B7-D2D4-798F-231F-1A3B6886E950</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC4AD05A-1D2A-870A-DF6F-C355A01E581D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

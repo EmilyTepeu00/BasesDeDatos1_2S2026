@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7629145D-708A-19F4-FAAD-076DE0CEC641" name="VENTA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:56:18 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_venta" id="275AADA9-D20F-80B9-18A6-4B5DFBC51E4E">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:56:22 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="25501D37-40AE-D392-6067-4998F1BF414C">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:56:29 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_estado" id="79AE80DF-27F6-25C1-A7CC-A37AEABE72E2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 23:31:46 UTC</createdTime>
+<generatorID>208015C0-E9C8-3C8E-82B2-875DA38E3C5D</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<referedAttribute>E2CC2089-6948-1A95-53A2-4EA7CE91063B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_cliente" id="46B8E069-DC80-5592-43A3-D688E52680C8">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 23:32:09 UTC</createdTime>
+<generatorID>19BF4007-CB0F-B5E8-E75C-B081261E94D6</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<referedAttribute>8A4BB78E-29F0-F3C0-8ED5-7FD222F123CA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_tienda" id="5C24B8D4-E1AF-0F47-3D8C-B826FF765E90">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 23:32:51 UTC</createdTime>
+<generatorID>3864FF5E-9884-8755-1CB3-9F85322485EE</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<referedAttribute>0033CB5B-BB82-3CDF-C2D2-787C156BDFF6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_empleado" id="8C85B438-647E-5C51-DD9D-542245A494E8">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 23:33:06 UTC</createdTime>
+<generatorID>557B5472-138A-BE0D-1F0C-170EACCBD8D4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<referedAttribute>5C53513D-25BC-96E7-7565-779841022303</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73E66805-EE96-12ED-D432-05352183CEF8" name="VENTA PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:56:28 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>275AADA9-D20F-80B9-18A6-4B5DFBC51E4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

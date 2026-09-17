@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4517FD4-9E8C-402F-CA73-C510F38F67E1" name="CATEGORIA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:54:42 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_categoria" id="97A04B29-C48D-34C4-0831-825F68B2C98A">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:54:48 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="69CE6103-EFC6-60D9-E0B1-D0FFDFF42919">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:54:59 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="354B1C1F-5E5C-DA85-88C8-2E9386D22619" name="CATEGORIA PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:54:57 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97A04B29-C48D-34C4-0831-825F68B2C98A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="047E05CE-1C09-93C3-152E-69ACB5422114" name="Key_2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:18:01 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<newElementsIDs>69CE6103-EFC6-60D9-E0B1-D0FFDFF42919</newElementsIDs>
+<usedAttributes>
+<attributeRef>69CE6103-EFC6-60D9-E0B1-D0FFDFF42919</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

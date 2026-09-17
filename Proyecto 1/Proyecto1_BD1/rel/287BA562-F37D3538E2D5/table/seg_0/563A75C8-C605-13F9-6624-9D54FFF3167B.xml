@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="563A75C8-C605-13F9-6624-9D54FFF3167B" name="VENTA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>7629145D-708A-19F4-FAAD-076DE0CEC641</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_venta" id="5B4FAF6F-A619-DC8E-83B9-EBB752B1013F">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>275AADA9-D20F-80B9-18A6-4B5DFBC51E4E</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="48271141-29C6-EB93-7508-177A30D5B8E2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>25501D37-40AE-D392-6067-4998F1BF414C</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_VENTA_codigo_estado" id="09AB8609-DB41-8917-A3B1-E9F5B41E8FA6">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>79AE80DF-27F6-25C1-A7CC-A37AEABE72E2</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="870E5139-E36A-987E-AE6F-07B309C8CF5D" referredColumn="C1EF0CF9-4EDD-24B0-4285-BC5A9C46B856"/>
+</associations>
+</Column>
+<Column name="CLIENTE_codigo_cliente" id="8740158C-392F-4151-8FD9-235A372BDFDD">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>46B8E069-DC80-5592-43A3-D688E52680C8</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D0F591C-D0E8-3170-17A2-95FD018126FB" referredColumn="5CC71966-A15D-1EEC-C621-CB571C58CBFE"/>
+</associations>
+</Column>
+<Column name="TIENDA_codigo_tienda" id="57D0723F-6EB2-EC79-9532-9760F9879419">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>5C24B8D4-E1AF-0F47-3D8C-B826FF765E90</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50A79B56-27E6-2493-73D9-2F83CF0D9593" referredColumn="67D69F07-FE96-55F1-A6D1-AAA066F73D7A"/>
+</associations>
+</Column>
+<Column name="EMPLEADO_codigo_empleado" id="C1CA61A7-04D9-A878-5FD0-FC3AAF5243F6">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>8C85B438-647E-5C51-DD9D-542245A494E8</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFBD0E92-D943-8117-ED21-B2DE0F3407D0" referredColumn="E1914BD8-3330-5DA8-E6D3-A821F5876832"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBA0C027-3AEB-E5F1-2647-3629CEDABDBC" name="VENTA_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>73E66805-EE96-12ED-D432-05352183CEF8</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B4FAF6F-A619-DC8E-83B9-EBB752B1013F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="879DB001-7173-62AC-98CB-2E1893178D24" name="VENTA_ESTADO_VENTA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>208015C0-E9C8-3C8E-82B2-875DA38E3C5D</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09AB8609-DB41-8917-A3B1-E9F5B41E8FA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02740AA9-638C-71F6-820D-9DB3396AF9AD" name="VENTA_CLIENTE_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>19BF4007-CB0F-B5E8-E75C-B081261E94D6</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8740158C-392F-4151-8FD9-235A372BDFDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4093843-B75B-145F-0086-B90884399058" name="VENTA_TIENDA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>3864FF5E-9884-8755-1CB3-9F85322485EE</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57D0723F-6EB2-EC79-9532-9760F9879419"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33299903-CF4F-8676-D9AB-48C59F045BAF" name="VENTA_EMPLEADO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>557B5472-138A-BE0D-1F0C-170EACCBD8D4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1CA61A7-04D9-A878-5FD0-FC3AAF5243F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

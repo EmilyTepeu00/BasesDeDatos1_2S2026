@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE2C0394-040A-0087-BAA9-25BA26C38332" name="PRODUCTO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>40902C5D-440F-FAA6-DE7A-FDC43B63DF0A</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_producto" id="42B7B58F-C7FC-23A9-CF12-4B8AC3D505EB">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>5470AE1F-4546-D368-13C7-0F6992C92171</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="F58730D1-D422-D67F-1633-89DFF339D0C3">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>D4C3B2E4-EFCD-C700-4412-88D37661837B</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="C4207DFA-2B7F-C8A2-55DD-6F764C3F61CE">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>723A9F43-BB03-0693-F5DB-CBC17B1A6B89</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_codigo_categoria" id="F8A234DA-9341-E4C0-2DF6-CFFAB3AE21DC">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>06DAFE6B-4F12-93F1-92A9-709F2334531C</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEE095E3-EF97-7725-1574-23996A77EF98" referredColumn="37B24E1E-2E7C-FE00-782A-74E9EFC783D8"/>
+</associations>
+</Column>
+<Column name="MARCA_codigo_marca" id="73F0E21D-5661-3D62-4B67-42C3273BECC2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>C53145B3-0DF6-BFC8-6EC2-2875F6E8BAD2</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D76DB64-F59A-467C-5B34-3D596612CC60" referredColumn="A873AAD6-FE6F-57AA-55A7-E1C4E666FC74"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1651A5F4-1B33-D358-1F57-1E743E09B50F" name="PRODUCTO_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>6B2E8A95-3BBC-8D2B-CBCD-F013E4AD3328</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42B7B58F-C7FC-23A9-CF12-4B8AC3D505EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E26AF0A9-5D97-CE12-724C-9D565AB1EE07" name="PRODUCTO_CATEGORIA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>F7A8D162-3006-A9DF-EDF9-4A9843F37683</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8A234DA-9341-E4C0-2DF6-CFFAB3AE21DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C7B8A78-0C3E-379B-DBE4-9D757F123750" name="PRODUCTO_MARCA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:41:18 UTC</createdTime>
+<generatorID>59C94CEF-A567-B7CB-9E1D-F1EE8ADED983</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F0E21D-5661-3D62-4B67-42C3273BECC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

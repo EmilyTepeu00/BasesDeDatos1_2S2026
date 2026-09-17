@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A2E6306-40ED-5104-4D6F-76365CB6781D" name="TIPO_TIENDA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>1B89226A-3E0D-6075-02F4-FBD96E16C794</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_tipo_tienda" id="00ABCC9A-3E53-F3E3-1D20-6C7B1B2D4EBD">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>F613C304-3EE0-B2CA-FA5A-C771F2AF73C0</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="2EF2FDD4-07CB-DB9F-E05D-00E9ADC5CB18">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>2536ED94-0842-0542-C818-2B5D013BD8FF</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E36E61E-B520-D92B-D459-E9BEF70D57A0" name="TIPO_TIENDA_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>A271D3A2-19B4-4C46-FF81-4D855CDD0C8A</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00ABCC9A-3E53-F3E3-1D20-6C7B1B2D4EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C703C06-14A0-9A37-801D-EE3151B9AE1D" name="TIPO_TIENDA_nombre_UN">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:25:14 UTC</createdTime>
+<generatorID>0606775E-6171-12D5-7E05-2FE2CC5BD450</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EF2FDD4-07CB-DB9F-E05D-00E9ADC5CB18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

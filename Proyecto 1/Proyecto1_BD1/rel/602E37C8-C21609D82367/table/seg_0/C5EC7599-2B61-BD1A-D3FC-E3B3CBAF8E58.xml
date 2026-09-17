@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5EC7599-2B61-BD1A-D3FC-E3B3CBAF8E58" name="DESGLOSE_VENTA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>8B6E11AC-30B4-4C37-5C92-3C6B0D2A8A01</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad" id="E25FE96F-D606-B1A2-ED6A-44C62072AA21">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>D141EB49-A8E9-DCEC-7F31-4270C5ED6DAC</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="581896B3-1EE6-1116-3A22-FC924BBCB3AE">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>A091E11F-F887-C6E6-351B-0236FF4D40E5</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="A65BB063-5570-4C9D-9AD6-DA6466D1F8FD">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>167A7B9C-342C-648A-40A4-546D041F30F6</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTA_numero_venta" id="E64F82E3-122E-ABB0-9093-CD3B8EB39306">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>69DF18CD-1E20-D859-CB47-3A5C591AF480</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0375502-6FBF-8F23-FD24-8B9C02A6273C" referredColumn="137194D9-E865-5073-252C-2A17E5B2CB08"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_codigo_producto" id="2B17B6F2-4D56-4D6F-768B-13763EB4DA2F">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>B0206232-7EB2-F515-37D8-28280C33A29F</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="352A955E-70E9-5845-9756-211B7C6C5937" referredColumn="4A0D8983-B1E3-3A90-099A-0ECFFA85001A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CDA31F3-0F93-D02E-3063-53EF444115C4" name="DESGLOSE_VENTA_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:46 UTC</createdTime>
+<generatorID>6B811AF1-8BD7-5CA6-D7E9-767A5B8E2E75</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E64F82E3-122E-ABB0-9093-CD3B8EB39306"/>
+<colUsage columnID="2B17B6F2-4D56-4D6F-768B-13763EB4DA2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32A31725-5AC8-7C26-E3C6-B5C4450FA9BF" name="DESGLOSE_VENTA_VENTA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>64FFC62A-B410-94C4-0368-32933D1FCC2E</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E64F82E3-122E-ABB0-9093-CD3B8EB39306"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="936F0FCB-D207-3C0B-CF50-776046CBA599" name="DESGLOSE_VENTA_PRODUCTO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 05:40:47 UTC</createdTime>
+<generatorID>62105171-6DED-C23D-DAEA-B4D7E2545296</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B17B6F2-4D56-4D6F-768B-13763EB4DA2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="DESGLOSE_VENTA_CK_1" directorySegmentName="seg_1" id="474D0989-36E1-0B91-1152-6DDB81FCB9EB">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 20:56:22 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<rule><![CDATA[cantidad > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="DESGLOSE_VENTA_CK_2" directorySegmentName="seg_1" id="1383DA3B-98AA-55A6-01F8-4A2531CAF053">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 20:56:27 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<rule><![CDATA[precio_unitario > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="DESGLOSE_VENTA_CK_3" directorySegmentName="seg_1" id="BC7931FB-9594-37BE-DA37-87F2FB1DAFCB">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 21:10:28 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<rule><![CDATA[subtotal = cantidad * precio_unitario]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

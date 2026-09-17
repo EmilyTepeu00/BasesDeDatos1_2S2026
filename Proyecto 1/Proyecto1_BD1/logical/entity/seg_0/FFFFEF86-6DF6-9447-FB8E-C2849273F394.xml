@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFFFEF86-6DF6-9447-FB8E-C2849273F394" name="MARCA">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:55:03 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_marca" id="62E45003-4703-EE98-8EE6-ECEC2690BE5A">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:55:07 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9FDAC3D7-35A0-E6FD-B210-57A54BE6F4A8">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:55:14 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12BAC72B-AF19-3935-88ED-6AEDB4EA61EF" name="MARCA PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-14 22:55:13 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62E45003-4703-EE98-8EE6-ECEC2690BE5A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DA18EE4C-58FF-5950-A5AD-85608C2BD206" name="Key_2">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 04:18:10 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="287BA562-1006-6380-DB30-F37D3538E2D5" value="true"/>
+</engineerTo>
+<newElementsIDs>9FDAC3D7-35A0-E6FD-B210-57A54BE6F4A8</newElementsIDs>
+<usedAttributes>
+<attributeRef>9FDAC3D7-35A0-E6FD-B210-57A54BE6F4A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1CEDAF0-313C-DBA4-A796-16B37EA5A160" name="PAGO">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>2251F8C5-C468-F977-B29B-F8DE41ECC470</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_pago" id="9719A6A4-C7A0-DB0F-129D-72F7A08FB378">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>052AE27F-4625-8A8E-CE54-D47727EBF1A4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="72CC87ED-A5A2-F18D-7A0D-C27C572BC738">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>A84727E8-5F53-EC50-E164-AA27E1B08781</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTA_numero_venta" id="85C9A55D-8AD3-3B38-6358-A76AB5CBF94F">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>8D5612C0-B11A-4091-6D4C-B403302C11D4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="378DC8B0-BF06-A6CE-5974-23E5E2C766A3" referredColumn="5B4FAF6F-A619-DC8E-83B9-EBB752B1013F"/>
+</associations>
+</Column>
+<Column name="METODO_PAGO_codigo_metodo_pago" id="F8616643-E675-0EC1-F2F7-9B75E5BF1505">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>68414541-71E2-F919-980A-CFFF62ACB693</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54185445-0041-864B-13A0-417EDDC3E014" referredColumn="28EF33E2-DD5D-33D4-1E3B-78DDEBCCF636"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37D29953-5E13-4F45-04D3-387C5F74B4C7" name="PAGO_PK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>C2318B7D-F926-37CD-46B3-5164E501D6B7</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9719A6A4-C7A0-DB0F-129D-72F7A08FB378"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1929F21-1823-6367-45B0-4CFE232CACD3" name="PAGO_VENTA_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>CC6CFF55-08A8-3F38-0ED2-85E65C8DE2B4</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C9A55D-8AD3-3B38-6358-A76AB5CBF94F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CF9F95A-E3F2-DF6F-F4D1-502F3EB37933" name="PAGO_METODO_PAGO_FK">
+<createdBy>emily</createdBy>
+<createdTime>2026-09-15 00:53:10 UTC</createdTime>
+<generatorID>27D05969-F0FB-3AFD-BC37-CD55490CBBF8</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8616643-E675-0EC1-F2F7-9B75E5BF1505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
