@@ -1,4 +1,4 @@
-# Bases de Datos 1 - Segundo Semestre 2026
+# Bases de Datos 1
 
 ## Práctica 1: Sistema de gestión de Prácticas Profesionales Supervisadas (EPS)
 
